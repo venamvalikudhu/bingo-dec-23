@@ -1,0 +1,120 @@
+	<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Bingo-July'23</title>
+<link rel="stylesheet" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body onload="NextQuestion(0)">
+    <main>	
+	<br>
+
+<!-- Quiz Question section-->
+        <div class="game-question-container">
+			
+			<div id="question">
+                <h1 id="display-question"></h1>
+			</div>
+			
+			<div id="options">
+			<span id="option1">*****************************************************************************************************
+				</span>
+				<br>
+				<br>
+						<span id="option2">*****************************************************************************************************
+						</span>
+						<br>	
+						<br>						
+								<span id="option3">*****************************************************************************************************
+								</span>
+								<br> 	
+								<br>
+								
+			</div>
+
+			<div id="votes">
+			<span id="votes1">*******
+				</span>
+				<br>
+				<br>
+						<span id="votes2">*******
+						</span>
+						<br>	
+						<br>						
+								<span id="votes3">*******
+								</span>
+								<br> 	
+								<br>
+								
+			</div>
+			
+			<div class="game-options-container">
+				<span>
+                    <input type="text" id="user-ans1" name="answer" class="textbox"/>
+										<img id="image1" src="redimage.jpeg">
+				</span>
+				</img>
+				<span>
+                    <input type="text" id="user-ans2" name="answer" class="textbox"/>
+										<img id="image2" src="redimage.jpeg">
+                </span>
+            </div>
+			
+			<div class="game-options-container2">
+				<span>
+                    <input type="text" id="user-ans4" name="answer" class="textbox"/>
+					<img id="image4" src="redimage.jpeg">
+                </span>
+            </div>
+
+			</div>
+		
+<!-- End of Quiz Question section-->
+
+<!-- Quiz next Question section-->
+            <div class="next-button-container">
+                <button onclick="handleNextQuestion()">Next Question</button>
+            </div>
+			
+		<div class="game-options-answers-container">
+		<button onclick="handleAnswer('Ragav')">Ragav</button>
+		<button onclick="handleAnswer('Bharathi')">Bharathi</button>
+		<button onclick="handleAnswer('Srimathi')">Srimathi</button>
+		<button onclick="handleAnswer('Shree Hari')">Shree Hari</button>
+		<button onclick="handleAnswer('Gopu - Santhana Gopalan')">Gopu - Santhana Gopalan</button>
+		<button onclick="handleAnswer('Swaminathan')">Swaminathan</button>
+		<button onclick="handleAnswer('Rathi')">Rathi</button>
+		<button onclick="handleAnswer('Rajee')">Rajee</button>
+		<button onclick="handleAnswer('Rajeswari Ganesan')">Rajeswari Ganesan</button>
+		<button onclick="handleAnswer('Ganesan')">Ganesan</button>
+		<button onclick="handleAnswer('Neha')">Neha</button>
+		<button onclick="handleAnswer('Jyothi')">Jyothi</button>
+		<button onclick="handleAnswer('Varun')">Varun</button>
+		<button onclick="handleAnswer('Harish')">Harish</button>
+		<button onclick="handleAnswer('Varshini')">Varshini</button>
+		<button onclick="handleAnswer('Aditya')">Aditya</button>
+		<button onclick="handleAnswer('Shipa')">Shipa</button>
+		<button onclick="handleAnswer('Radha')">Radha</button>
+		<button onclick="handleAnswer('Doss')">Doss</button>
+		<button onclick="handleAnswer('Kumar')">Kumar</button>
+		<button onclick="handleAnswer('shankari')">shankari</button>
+		<button onclick="handleAnswer('Arun')">Arun</button>
+		<button onclick="handleAnswer('Sudha')">Sudha</button>
+		<button onclick="handleAnswer('Meera')">Meera</button>
+		<button onclick="handleAnswer('Ramanan')">Ramanan</button>
+		<button onclick="handleAnswer('Deepa')">Deepa</button>
+		<button onclick="handleAnswer('Ganesh')">Ganesh</button>
+		<button onclick="handleAnswer('Gayathri')">Gayathri</button>
+		<button onclick="handleAnswer('Gowtham')">Gowtham</button>
+		<button onclick="handleAnswer('Deepak')">Deepak</button>
+		<button onclick="handleAnswer('Vidya')">Vidya</button>
+		<button onclick="handleAnswer('Raghu')">Raghu</button>
+		<button onclick="handleAnswer('Uma')">Uma</button>
+		</div>	
+
+    </main>
+    <script src="logic.js"></script>
+</body>
+</html>

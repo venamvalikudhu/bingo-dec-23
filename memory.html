@@ -1,0 +1,46 @@
+	<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Bingo-July'23</title>
+<link rel="stylesheet" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <main>
+	<div class="wheels" style="width: 90%; height: 90%">
+	
+	<div class="slideshow-container">
+      <div class="mySlides fade">
+        <img id="1" src="1.jpg" style="width:100%">
+		        <img id="11" style="display:none;" src="backgroundimage.jpg" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <img id="2" src="2.jpg" style="width:100%">
+		        <img id="12" style="display:none;" src="backgroundimage.jpg" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <img id="3" src="3.jpg" style="width:100%">
+		        <img id="13" style="display:none;" src="backgroundimage.jpg" style="width:100%">
+      </div>
+	     <div class="mySlides fade">
+        <img id="4" src="4.jpg" style="width:100%">
+		        <img id="14" style="display:none;" src="backgroundimage.jpg" style="width:100%">
+      </div>
+	  </div>
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(0)"></span>
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+	</div>
+	</main>
+	    <script src="slide.js"></script>
+</body>
+
+</html>
